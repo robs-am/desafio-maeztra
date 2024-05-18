@@ -1,4 +1,7 @@
 export { default as Logo } from './assets/header/logo.svg';
+export { default as Heart } from './assets/header/icon-heart.svg';
+export { default as User } from './assets/header/icon-user.png';
+export { default as ShoppingBag } from './assets/header/icon-shoppingbag.svg';
 
 export const benefitsBar = {
   title: 'Acompanhe as melhores promoções disponíveis aqui na Maeztra.',
@@ -12,4 +15,10 @@ export const navigation = [
   { name: 'Lingerie', href: '#' },
   { name: 'Acessórios', href: '#' },
   { name: 'Outlet', href: '#' },
+];
+
+export const colRight = [
+  { name: 'Minha Conta', image: './assets/header/icon-user.png' },
+  { name: 'Favoritos', image: './assets/header/icon-heart.svg' },
+  { name: 'Meu Carrinho', image: './assets/header/icon-shoppingBag.svg' },
 ];
