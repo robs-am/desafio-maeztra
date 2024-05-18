@@ -2,7 +2,15 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        black: '#000',
+        orange: '#FAA500',
+      },
+      fontFamily: {
+        sans: ['Titillium Web'],
+      },
+    },
   },
   plugins: [],
 };
