@@ -14,7 +14,7 @@ export const navigation = [
   { name: 'Sapatos', href: '#' },
   { name: 'Lingerie', href: '#' },
   { name: 'Acessórios', href: '#' },
-  { name: 'Outlet', href: '#' },
+  { name: 'OUTLET', href: '#' },
 ];
 
 export const colRight = [
