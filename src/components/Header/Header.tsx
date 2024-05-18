@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Logo, hero } from "../../data";
+import Nav from "../Nav/Nav";
 
 const Header = () => {
   return (
@@ -8,13 +9,8 @@ const Header = () => {
       <div>
         <a href="/"><img src={Logo} alt="Logo Maeztra" /></a>
       </div>
-      <ul>
-        <li>{hero.title}</li>
-        <li>Teste</li>
-        <li>Teste</li>
-        <li>Teste</li>
-        <li>Teste</li>
-      </ul>
+      <Nav />
+
     </header>
   )
 }
