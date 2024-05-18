@@ -18,7 +18,16 @@ export const navigation = [
 ];
 
 export const colRight = [
-  { name: 'Minha Conta', image: './assets/header/icon-user.png' },
-  { name: 'Favoritos', image: './assets/header/icon-heart.svg' },
-  { name: 'Meu Carrinho', image: './assets/header/icon-shoppingBag.svg' },
+  {
+    name: 'Minha Conta',
+    icon: './assets/header/icon-user.png',
+  },
+  {
+    name: 'Favoritos',
+    icon: './assets/header/icon-heart.svg',
+  },
+  {
+    name: 'Meu Carrinho',
+    icon: './assets/header/icon-shoppingBag.svg',
+  },
 ];
