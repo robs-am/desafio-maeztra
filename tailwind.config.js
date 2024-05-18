@@ -6,6 +6,10 @@ export default {
       colors: {
         black: '#000',
         lighterBlack: '#353535',
+        white: {
+          100: '#EFEFEF',
+          default: '#FFF',
+        },
         orange: '#FAA500',
       },
       fontFamily: {

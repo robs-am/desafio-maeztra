@@ -1,14 +1,15 @@
 import React from 'react';
 
-import { Logo, benefitsBar, colRight } from "../../data";
+import { Logo, benefitsBar, colRight, Heart, User, ShoppingBag } from "../../data";
 import Nav from "../Nav/Nav";
 import Search from "../Search/Search";
+
 
 const Header = () => {
   return (
     <>
       <header>
-        <div className="header__top h-6 text-white text-xs flex items-center justify-center bg-lighterBlack">
+        <div className="header__top h-6 text-white-100 text-xs flex items-center justify-center bg-lighterBlack">
           {benefitsBar.title}
         </div>
 
@@ -17,25 +18,36 @@ const Header = () => {
             <a href="/"><img src={Logo} alt="Logo Maeztra" /></a>
           </div>
           <div className="header__main--col-center">
-            <Search />
+            <div className="rounded-s-xl">
+              <Search className="rounded-lg" />
+            </div>
           </div>
-          <div className="header__main--col-right flex flex-row">
-            {/* Mapping over colRight array to render each item */}
-            {colRight.map((item, index) => (
-              <div key={index} className="header__icon">
-                <a href="#">
-                  <img src={item.icon} alt={` ${item.name}`} />
-
-                </a>
-              </div>
-            ))}
+          <div className="header__main--col-right flex flex-row gap-10">
+            <div className="favoritos">
+              <a className="flex flex-row gap-2" href="#">
+                <img src={User} />
+                <span>Minha Conta</span>
+              </a>
+            </div>
+            <div className="favoritos">
+              <a className="flex flex-row gap-2" href="#">
+                <img src={Heart} />
+                <span>Favoritos</span>
+              </a>
+            </div>
+            <div className="favoritos">
+              <a className="flex flex-row gap-2" href="#">
+                <img src={ShoppingBag} />
+                <span>Meu Carrinho</span>
+              </a>
+            </div>
           </div>
         </div>
 
         <div className="header__bottom flex justify-center">
           <Nav />
         </div>
-      </header>
+      </header >
     </>
   );
 };
