@@ -13,7 +13,7 @@ const Header = () => {
           {benefitsBar.title}
         </div>
 
-        <div className="header__main flex flex-row items-center justify-around p-6">
+        <div className="header__main flex flex-row items-center justify-around p-6 bg-white shadow-md">
           <div className="header__main--col-left">
             <a href="/"><img src={Logo} alt="Logo Maeztra" /></a>
           </div>

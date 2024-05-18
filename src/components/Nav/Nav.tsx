@@ -1,14 +1,14 @@
 import React from 'react'
-
+import "./global.css"
 import { navigation } from "../../data"
 
 
 export const Nav = () => {
   return (
     <nav >
-      <ul className="ul flex flex-row items-center justify-center">
+      <ul className="ul flex flex-row items-center justify-center my-4">
         {navigation.map((item, index) => {
-          return <li key={index}><a href={item.href}>{item.name}</a></li>
+          return <li className="li px-14" key={index}><a href={item.href}>{item.name}</a></li>
         })}
       </ul>
     </nav>
