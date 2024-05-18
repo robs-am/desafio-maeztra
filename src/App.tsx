@@ -1,5 +1,6 @@
 import Header from './components/Header/Header'
-import EmblaCarousel from "./components/Banner/Banner";
+import EmblaCarousel from './components/Banner/EmblaCaroussel'
+
 
 
 function App() {
@@ -7,11 +8,8 @@ function App() {
 
   return (
     <>
-
       <Header />
       <EmblaCarousel />
-
-
     </>
   )
 }
