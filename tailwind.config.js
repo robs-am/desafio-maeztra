@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         black: '#000',
+        lighterBlack: '#353535',
         orange: '#FAA500',
       },
       fontFamily: {

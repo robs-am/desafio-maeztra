@@ -5,8 +5,8 @@ import { navigation } from "../../data"
 
 export const Nav = () => {
   return (
-    <nav className="ml-16">
-      <ul className="flex gap-x-10">
+    <nav >
+      <ul>
         {navigation.map((item, index) => {
           return <li key={index}><a href={item.href}>{item.name}</a></li>
         })}
