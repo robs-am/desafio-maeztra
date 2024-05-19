@@ -33,3 +33,57 @@ export const bannerText = {
 export const tipBar = {
   title: 'Por que comprar na Maeztra?',
 };
+
+export const navFooter = [
+  {
+    title: 'Informações',
+    links: [
+      {
+        text: 'Quem Somos',
+        path: '#',
+      },
+      {
+        text: 'Prazo de Envio',
+        path: '#',
+      },
+      {
+        text: 'Trocas e Devoluções',
+        path: '#',
+      },
+      {
+        text: 'Promoções e Cupons',
+        path: '#',
+      },
+    ],
+  },
+  {
+    title: 'Minha Conta',
+    links: [
+      {
+        text: 'Minha Conta',
+        path: '#',
+      },
+      {
+        text: 'Meus Pedidos',
+        path: '#',
+      },
+      {
+        text: 'Cadastre-se',
+        path: '#',
+      },
+    ],
+  },
+  {
+    title: 'Onde nos Encontrar',
+    links: [
+      {
+        text: 'Lojas',
+        path: '#',
+      },
+      {
+        text: 'Endereço',
+        path: '#',
+      },
+    ],
+  },
+];
