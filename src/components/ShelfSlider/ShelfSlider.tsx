@@ -1,17 +1,49 @@
 import React from 'react';
 import Slider from "react-slick";
+import Next from "../../assets/banner/next.svg";
+import Previous from "../../assets/banner/prev.svg";
+import "./global.css"
+
 import { shelf, Produto01, Produto02, Cor01, Cor02 } from "../../data";
+
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className="slick-next"
+      style={{ ...style, display: 'flex', cursor: "pointer" }}
+      onClick={onClick}
+    >
+      <img src={Next} alt="arrow_right" />
+    </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className="slick-prev"
+      style={{ ...style, display: 'flex', cursor: "pointer" }}
+      onClick={onClick}
+    >
+      <img src={Previous} alt="arrow_left" />
+    </div>
+  );
+}
 
 
 export default function SimpleSlider() {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    arrows: true, // Defina as setas como true
+    speed: 700,
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,

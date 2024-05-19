@@ -29,7 +29,7 @@ function App() {
       <div className="mb-20">
         <Brands />
       </div>
-      <SimpleSlider />
+
       <div className="mb-20">
         <ShelfSlider />
       </div>
