@@ -10,7 +10,7 @@ const Newsletter = () => {
           <h2 className="news-title text-2xl font-bold text-lighterBlack">Receba Nossa Newsletter</h2>
 
           <form action="#" method="post" className="flex gap-5 lg:gap-0">
-            <input className="pl-2 border-[1px] border-black rounded-sm min-w-[200px] lg:min-w-96 py-2 " type="email" name="email" id="email" placeholder="Digite seu e-mail" />
+            <input className="pl-2 border-[1px] border-black rounded-sm min-w-[200px] lg:min-w-96 py-2 " type="email" name="email" id="email" placeholder="Digite seu e-mail" required />
             <Button text="Enviar" className="text-white-default font-bold px-5 rounded-md" />
           </form>
         </div>

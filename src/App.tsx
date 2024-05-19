@@ -4,6 +4,7 @@ import TipBar from './components/TipBar/TipBar'
 import Brands from './components/Brands/Brands'
 import Footer from './components/Footer/Footer'
 import Newsletter from './components/Newsletter/Newsletter'
+import BannerText from './components/BannerText/BannerText'
 
 
 
@@ -22,6 +23,9 @@ function App() {
       </div>
       <div className="mb-20">
         <Brands />
+      </div>
+      <div className="mb-20">
+        <BannerText />
       </div>
       <Newsletter />
       <Footer />

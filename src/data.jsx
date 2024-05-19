@@ -10,6 +10,8 @@ export { default as Mastercard } from './assets/footer/mastercard.svg';
 export { default as Visa } from './assets/footer/visa.svg';
 export { default as Maeztra } from './assets/footer/maeztra.svg';
 export { default as Vtex } from './assets/footer/vtex.svg';
+export { default as BannerTextDesk } from './assets/bannertext/banner-text-desk.png';
+export { default as BannerTextMob } from './assets/bannertext/banner-text-mob.png';
 
 export const benefitsBar = {
   title: 'Acompanhe as melhores promoções disponíveis aqui na Maeztra.',
@@ -87,3 +89,8 @@ export const navFooter = [
     ],
   },
 ];
+
+export const bannerWithText = {
+  title: 'Lorem ipsum',
+  desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum mauris posuere fusce proin mattis. Hendrerit cras ut nunc enim dictum. Mattis proin ut quis donec sed eget nulla. Vel mi ut mauris integer. Nibh sagittis in lobortis sed cursus condimentum velit pharetra. Amet luctus ut vulputate scelerisque placerat consequat. Neque arcu mi iaculis id. Vel vitae, pharetra, a nec tristique. Feugiat id tortor eu mauris pulvinar velit massa. Ut ornare augue eget convallis volutpat aliquet. Sed sed pellentesque porttitor phasellus donec condimentum sit sapien.',
+};
