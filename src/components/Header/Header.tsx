@@ -19,13 +19,13 @@ const Header = () => {
       {/* Header Mobile */}
       <header className="header__mobile h-28 flex items-center justify-center lg:hidden">
         <div className="header__mobile--container flex flex-row items-center gap-5 px-4">
-          <div clasName="hamburguer"><BiMenu size={36} /></div>
+          <div className="hamburguer"><BiMenu size={36} /></div>
           <div className="header__mobile-logo mr-16">
             <a href="/"><img src={Logo} alt="Logo Maeztra" /></a>
           </div>
           <div className="icons__mobile flex flex-row items-center gap-8">
-            <div clasName="search"><CiSearch size={32} /></div>
-            <div clasName="shoppingBag"><HiOutlineShoppingBag size={32} /></div>
+            <div className="search"><CiSearch size={32} /></div>
+            <div className="shoppingBag"><HiOutlineShoppingBag size={32} /></div>
           </div>
         </div>
       </header>
