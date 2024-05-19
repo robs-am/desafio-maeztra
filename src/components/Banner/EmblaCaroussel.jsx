@@ -14,7 +14,7 @@ export function EmblaCarousel() {
     <section>
       <div className="banner-container absolute z-10 left-[40%] lg:left-[30%] transform translate-x-[-40%] translate-y-[45%] lg:max-w-[471px]">
         <div className="banner-text flex flex-col gap-5 lg:gap-10">
-          <h1 className="text-3xl font-montserrat font-bold text-white-default lg:text-4 xl">
+          <h1 className="text-3xl font-montserrat font-bold text-white-default lg:text-4xl">
             {bannerText.title}
           </h1>
           <p className="text-sm font-normal mb-4 lg:mb-10 font-montserrat text-white-default lg:text-xl">

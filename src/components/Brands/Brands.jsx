@@ -12,7 +12,7 @@ export function Brands() {
   const [emblaRef] = useEmblaCarousel({ loop: false }, []);
 
   return (
-    <section>
+    <section className="2xl:max-w-none 2xl?justify-center lg:max-w-[1366px] flex flex-col my-0 mx-auto">
       <div className="brands__title mb-6">
         <h3 className="text-center font-bold text-2xl lg:text-3xl text-lighterBlack  leading-6">
           Marcas Parceiras

@@ -46,19 +46,19 @@ const Header = () => {
             <div className="favoritos">
               <a className="flex flex-row gap-2" href="#">
                 <img src={User} />
-                <span>Minha Conta</span>
+                <span className="text-sm">Minha Conta</span>
               </a>
             </div>
             <div className="favoritos">
               <a className="flex flex-row gap-2" href="#">
                 <img src={Heart} />
-                <span>Favoritos</span>
+                <span className="text-sm">Favoritos</span>
               </a>
             </div>
             <div className="favoritos">
               <a className="flex flex-row gap-2" href="#">
                 <img src={ShoppingBag} />
-                <span>Meu Carrinho</span>
+                <span className="text-sm">Meu Carrinho</span>
               </a>
             </div>
           </div>

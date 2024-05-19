@@ -1,14 +1,15 @@
 .brands {
   overflow: hidden;
+  display: flex;
 }
 .brands__container {
   display: flex;
   justify-content: flex-start;
-  padding-left: 2rem;
 
   @media (min-width: 1024px) {
-    justify-content: center;
-    gap: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
     padding-inline: 1rem;
   }
 }

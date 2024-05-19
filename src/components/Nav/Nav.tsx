@@ -8,7 +8,7 @@ export const Nav = () => {
     <nav >
       <ul className="ul flex flex-row items-center justify-center my-4">
         {navigation.map((item, index) => {
-          return <li className="li px-14" key={index}><a href={item.href}>{item.name}</a></li>
+          return <li className="li px-14 text-sm" key={index}><a c href={item.href}>{item.name}</a></li>
         })}
       </ul>
     </nav>
