@@ -8,6 +8,7 @@ export default {
         lighterBlack: '#353535',
         white: {
           100: '#EFEFEF',
+          200: '#fafafa',
           default: '#FFF',
         },
         orange: '#FAA500',

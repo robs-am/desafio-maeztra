@@ -3,6 +3,8 @@ import EmblaCarousel from './components/Banner/EmblaCarousel'
 import TipBar from './components/TipBar/TipBar'
 import Brands from './components/Brands/Brands'
 import Footer from './components/Footer/Footer'
+import Newsletter from './components/Newsletter/Newsletter'
+
 
 
 
@@ -21,6 +23,7 @@ function App() {
       <div className="mb-20">
         <Brands />
       </div>
+      <Newsletter />
       <Footer />
     </>
   )

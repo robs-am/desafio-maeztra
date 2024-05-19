@@ -1,6 +1,9 @@
 .footer__main--mobile summary {
   list-style: none;
 }
+.footer__main--mobile {
+  padding-top: 33px;
+}
 
 .footer__main--mobile--item--list {
   padding-inline: 30px;
