@@ -8,7 +8,7 @@ import { bannerText } from '../../data';
 import './global.css';
 
 const BannerContent = () => (
-  <div className="banner-container absolute z-10 left-[40%] lg:left-[30%] transform -translate-x-[40%] translate-y-[85%] lg:max-w-[471px]">
+  <div className="banner-container absolute z-10 left-[40%] lg:left-[30%] transform -translate-x-[40%] translate-y-[45%] lg:translate-y-[85%] lg:max-w-[471px]">
     <div className="banner-text flex flex-col gap-5 lg:gap-10">
       <h1 className="text-3xl font-montserrat font-bold text-white-default lg:text-4xl">
         {bannerText.title}
