@@ -7,6 +7,10 @@ import Newsletter from './components/Newsletter/Newsletter'
 import BannerText from './components/BannerText/BannerText'
 import ShelfSlider from './components/ShelfSlider/ShelfSlider'
 
+import SimpleSlider from './components/Slick/Slick';
+
+
+
 
 
 
@@ -25,7 +29,10 @@ function App() {
       <div className="mb-20">
         <Brands />
       </div>
-      <ShelfSlider />
+      <SimpleSlider />
+      <div className="mb-20">
+        <ShelfSlider />
+      </div>
       <div className="mb-20">
         <BannerText />
       </div>
