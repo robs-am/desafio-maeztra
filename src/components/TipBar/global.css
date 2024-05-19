@@ -4,6 +4,7 @@
 .tipbar__container {
   display: flex;
   justify-content: flex-start;
+  padding-left: 20px;
 
   @media (min-width: 1024px) {
     justify-content: center;
