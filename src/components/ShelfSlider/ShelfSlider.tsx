@@ -36,6 +36,8 @@ function SamplePrevArrow(props) {
 
 export default function SimpleSlider() {
   var settings = {
+    className: "center",
+    centerMode: true,
     dots: true,
     infinite: true,
     speed: 700,
@@ -48,8 +50,8 @@ export default function SimpleSlider() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           infinite: true,
           arrows: true,
           dots: false
@@ -76,12 +78,12 @@ export default function SimpleSlider() {
   return (
     <div className="slider-container px-8">
       <Slider {...settings}>
-        {shelf.products.map(product => (
+        {shelf.products.map((product) => ( // Add closing parenthesis ')' after 'product'
           <div className="shelf__product" key={product.id}>
             <img src={product.id === 1 ? Produto01 : Produto02} alt={product.name} />
-            <img src={product.cor === './assets/shelf/cor01.png' ? Cor01 : Cor02} alt={product.name} />
-            <span className="shelf__product-price">{product.price}</span>
-            <h3 className="shelf__product-title">{product.name}</h3>
+            <img className="py-2" src={product.cor === './assets/shelf/cor01.png' ? Cor01 : Cor02} alt={product.name} />
+            <span className="shelf__product-price pb-2">{product.price}</span>
+            <h3 className="shelf__product-title pb-2">{product.name}</h3>
             <p className="shelf__product-desc">{product.desc}</p>
           </div>
         ))}

@@ -11,6 +11,8 @@ import B05 from '../../assets/brands/brand05.png';
 
 export function Brands() {
   var settings = {
+    className: 'center',
+    centerMode: true,
     dots: true,
     infinite: false,
     speed: 500,
