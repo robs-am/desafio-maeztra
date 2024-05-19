@@ -15,7 +15,7 @@ const Footer = () => {
           {navFooter.map((item, index) => (
             <details key={index}>
               <summary>{item.title}</summary>
-              <ul>
+              <ul className="footer__main--mobile--item--list" >
                 {item.links.map((link, linkIndex) => (
                   <li key={linkIndex}><a href={link.path}>{link.text}</a></li>
                 ))}
@@ -24,7 +24,7 @@ const Footer = () => {
           ))}
         </div>
         {/* Footer Main Desktop */}
-        <div className="footer__main--desktop hidden lg:flex lg:justify-around lg:mt-10 lg:mb-16">
+        <div className="footer__main--desktop hidden lg:flex lg:justify-around lg:mt-10 lg:mb-1">
           {navFooter.map((item, index) => {
             return <div className="footer__main--desktop--item flex flex-col gap-6" key={index}>
               <h3 className="text-lighterBlack text-lg font-bold ">{item.title}</h3>

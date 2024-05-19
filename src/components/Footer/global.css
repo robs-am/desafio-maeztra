@@ -1,0 +1,41 @@
+.footer__main--mobile summary {
+  list-style: none;
+}
+
+.footer__main--mobile--item--list {
+  padding-inline: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__main--mobile summary::after {
+  content: '➕';
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+details summary {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 30px;
+  margin-bottom: 20px;
+}
+
+details {
+  display: flex;
+  width: 100%;
+}
+
+details[open] {
+  display: flex;
+  gap: 20px;
+}
+details[open] summary::after {
+  content: '➖';
+}
+
+summary {
+  @apply text-lighterBlack font-bold;
+}
