@@ -1,6 +1,7 @@
 import Header from './components/Header/Header'
 import EmblaCarousel from './components/Banner/EmblaCaroussel'
 import TipBar from './components/TipBar/TipBar'
+import Brands from './components/Brands/Brands'
 
 
 
@@ -10,8 +11,15 @@ function App() {
   return (
     <>
       <Header />
-      <EmblaCarousel />
-      <TipBar />
+      <div className="mb-6">
+        <EmblaCarousel />
+      </div>
+      <div className="mb-20">
+        <TipBar />
+      </div>
+      <div className="mb-20">
+        <Brands />
+      </div>
     </>
   )
 }

@@ -1,0 +1,21 @@
+.brands {
+  overflow: hidden;
+}
+.brands__container {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2rem;
+
+  @media (min-width: 1024px) {
+    justify-content: center;
+    gap: 1rem;
+    padding-inline: 1rem;
+  }
+}
+.brands__slide {
+  flex: 0 0 85%;
+  min-width: 0;
+  @media (min-width: 1024px) {
+    flex: none;
+  }
+}
