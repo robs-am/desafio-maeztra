@@ -13,7 +13,7 @@ export function TipBar() {
 
   return (
     <section>
-      <div className="tipbar__title">
+      <div className="tipbar__title mb-4">
         <h3 className="text-center font-bold text-base text-lighterBlack leading-6">
           Por que comprar na Maeztra?
         </h3>

@@ -17,17 +17,7 @@ export const navigation = [
   { name: 'OUTLET', href: '#' },
 ];
 
-export const colRight = [
-  {
-    name: 'Minha Conta',
-    icon: './assets/header/icon-user.png',
-  },
-  {
-    name: 'Favoritos',
-    icon: './assets/header/icon-heart.svg',
-  },
-  {
-    name: 'Meu Carrinho',
-    icon: './assets/header/icon-shoppingBag.svg',
-  },
-];
+export const bannerText = {
+  title: 'Promoções de Outono',
+  subtitle: 'Confiras os melhores looks para combinar com você nesse Outono',
+};

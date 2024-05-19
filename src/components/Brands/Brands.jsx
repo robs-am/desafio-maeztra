@@ -13,27 +13,27 @@ export function Brands() {
 
   return (
     <section>
-      <div className="brands__title">
-        <h3 className="text-center font-bold text-base text-lighterBlack  leading-6">
+      <div className="brands__title mb-6">
+        <h3 className="text-center font-bold text-2xl lg:text-3xl text-lighterBlack  leading-6">
           Marcas Parceiras
         </h3>
       </div>
       <div className="brands" ref={emblaRef}>
         <div className="brands__container">
           <div className="brands__slide">
-            <img src={B01} />
-          </div>
-          <div className="brands__slide">
-            <img src={B02} />
-          </div>
-          <div className="brands__slide">
             <img src={B03} />
           </div>
           <div className="brands__slide">
             <img src={B04} />
           </div>
-          <div className="tipbar__slide">
+          <div className="brands__slide">
             <img src={B05} />
+          </div>
+          <div className="brands__slide">
+            <img src={B01} />
+          </div>
+          <div className="tipbar__slide">
+            <img src={B02} />
           </div>
         </div>
       </div>
