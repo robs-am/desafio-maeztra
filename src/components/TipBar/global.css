@@ -1,0 +1,12 @@
+.tipbar {
+  overflow: hidden;
+}
+.tipbar__container {
+  display: flex;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+.tipbar__slide {
+  flex: 0 0 85%;
+  min-width: 0;
+}
