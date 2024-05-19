@@ -1,5 +1,6 @@
 import React from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
+import { tipBar } from '../../data';
 import './global.css';
 
 import T01 from '../../assets/tipbar/Tipbar01.png';
@@ -15,7 +16,7 @@ export function TipBar() {
     <section>
       <div className="tipbar__title mb-4">
         <h3 className="text-center font-bold text-base text-lighterBlack leading-6">
-          Por que comprar na Maeztra?
+          {tipBar.title}
         </h3>
       </div>
       <div className="tipbar" ref={emblaRef}>

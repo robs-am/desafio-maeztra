@@ -21,3 +21,7 @@ export const bannerText = {
   title: 'Promoções de Outono',
   subtitle: 'Confiras os melhores looks para combinar com você nesse Outono',
 };
+
+export const tipBar = {
+  title: 'Por que comprar na Maeztra?',
+};

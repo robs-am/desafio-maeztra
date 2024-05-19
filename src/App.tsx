@@ -1,5 +1,5 @@
 import Header from './components/Header/Header'
-import EmblaCarousel from './components/Banner/EmblaCaroussel'
+import EmblaCarousel from './components/Banner/EmblaCarousel'
 import TipBar from './components/TipBar/TipBar'
 import Brands from './components/Brands/Brands'
 
