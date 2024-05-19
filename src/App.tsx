@@ -5,6 +5,7 @@ import Brands from './components/Brands/Brands'
 import Footer from './components/Footer/Footer'
 import Newsletter from './components/Newsletter/Newsletter'
 import BannerText from './components/BannerText/BannerText'
+import Shelf from './components/Shelf/Shelf'
 
 
 
@@ -24,10 +25,12 @@ function App() {
       <div className="mb-20">
         <Brands />
       </div>
+      <Shelf />
       <div className="mb-20">
         <BannerText />
       </div>
       <Newsletter />
+
       <Footer />
     </>
   )
