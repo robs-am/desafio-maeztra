@@ -3,10 +3,19 @@
 }
 .tipbar__container {
   display: flex;
-  gap: 1rem;
-  padding-left: 1rem;
+  justify-content: flex-start;
+  padding-left: 2rem;
+
+  @media (min-width: 1024px) {
+    justify-content: center;
+    gap: 1rem;
+    padding-inline: 1rem;
+  }
 }
 .tipbar__slide {
   flex: 0 0 85%;
   min-width: 0;
+  @media (min-width: 1024px) {
+    flex: none;
+  }
 }

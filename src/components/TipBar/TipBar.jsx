@@ -12,25 +12,32 @@ export function TipBar() {
   const [emblaRef] = useEmblaCarousel({ loop: false }, []);
 
   return (
-    <div className="tipbar" ref={emblaRef}>
-      <div className="tipbar__container">
-        <div className="tipbar__slide">
-          <img src={T01} />
-        </div>
-        <div className="tipbar__slide">
-          <img src={T02} />
-        </div>
-        <div className="tipbar__slide">
-          <img src={T03} />
-        </div>
-        <div className="tipbar__slide">
-          <img src={T04} />
-        </div>
-        <div className="tipbar__slide">
-          <img src={T05} />
+    <section>
+      <div className="tipbar__title pt-6 pb-4">
+        <h3 className="text-center font-bold text-base leading-6">
+          Por que comprar na Maeztra?
+        </h3>
+      </div>
+      <div className="tipbar" ref={emblaRef}>
+        <div className="tipbar__container">
+          <div className="tipbar__slide">
+            <img src={T01} />
+          </div>
+          <div className="tipbar__slide">
+            <img src={T02} />
+          </div>
+          <div className="tipbar__slide">
+            <img src={T03} />
+          </div>
+          <div className="tipbar__slide">
+            <img src={T04} />
+          </div>
+          <div className="tipbar__slide">
+            <img src={T05} />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
