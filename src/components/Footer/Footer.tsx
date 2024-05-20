@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
         <div className="footer__bottom bg-lighterBlack h-[233px] lg:h-[120px]">
           <div className="footer__bottom--row-1 flex flex-col gap-8 lg:flex lg:flex-row lg:justify-around lg:items-center lg:py-[26px]">
-            <div className="footer__bottom--row-1---social flex items-center justify-evenly pt-6 lg:pt-0 lg:gap-[22px]">
+            <div className="footer__bottom--row-1---social px-[60px] flex items-center justify-evenly pt-6 lg:pt-0 lg:gap-[22px]">
               <a href={Facebook}>
                 <img src={Facebook} alt="Facebook" />
               </a>
@@ -71,7 +71,7 @@ const Footer = () => {
                 <img src={Youtube} alt="Youtube" />
               </a>
             </div>
-            <div className="footer__bottom--row-1---cards flex items-center justify-evenly lg:gap-[22px] lg:pt-[5px]">
+            <div className="footer__bottom--row-1---cards px-[40px]  flex items-center justify-evenly lg:gap-[22px] lg:pt-[5px]">
               <img src={Visa} alt="Visa" />
               <img src={Mastercard} alt="Mastercard" />
               <img src={Visa} alt="Visa" />
