@@ -21,6 +21,7 @@ export function Brands() {
       {
         breakpoint: 1024,
         settings: {
+          centerMode: true, // Adicionando centerMode aqui
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
@@ -30,6 +31,7 @@ export function Brands() {
       {
         breakpoint: 600,
         settings: {
+          centerMode: true,
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
@@ -39,6 +41,7 @@ export function Brands() {
       {
         breakpoint: 480,
         settings: {
+          centerMode: true,
           slidesToShow: 1,
           slidesToScroll: 1,
           dots: true,
@@ -47,7 +50,7 @@ export function Brands() {
     ],
   };
   return (
-    <section className="">
+    <section>
       <div className="brands__title mb-6">
         <h3 className="text-center font-bold text-2xl lg:text-3xl text-lighterBlack  leading-6">
           Marcas Parceiras
@@ -56,19 +59,19 @@ export function Brands() {
       <div className="slider-container">
         <Slider {...settings}>
           <div className="flex justify-center">
-            <img src={B03} />
+            <img src={B03} alt="Brand 3" />
           </div>
           <div className="flex justify-center">
-            <img src={B04} />
+            <img src={B04} alt="Brand 4" />
           </div>
           <div className="flex justify-center">
-            <img src={B05} />
+            <img src={B05} alt="Brand 5" />
           </div>
           <div className="flex justify-center">
-            <img src={B01} />
+            <img src={B01} alt="Brand 1" />
           </div>
           <div className="flex justify-center">
-            <img src={B02} />
+            <img src={B02} alt="Brand 2" />
           </div>
         </Slider>
       </div>
