@@ -1,0 +1,18 @@
+.brands {
+  .slick-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+  }
+
+  .slick-slide {
+    @media (min-width: 1024px) {
+      max-width: 330px;
+    }
+  }
+
+  .slick-slide.slick-active {
+    max-width: 350px;
+  }
+}

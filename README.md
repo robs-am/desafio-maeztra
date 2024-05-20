@@ -11,10 +11,6 @@ Este é um desafio proposto como parte do Processo de Seleção da Maeztra. Ele 
 
 
 
-
-
-
-
 ## Instalação
 
 
@@ -50,7 +46,6 @@ Inicie o servidor
 ```
 
 
-## Autor
 
 ## Sobre 
 
