@@ -15,7 +15,7 @@
 }
 
 .footer__main--mobile summary::after {
-  content: '➕';
+  content: '+';
   display: inline-block;
   margin-right: 0.5rem;
 }
@@ -37,7 +37,7 @@ details[open] {
   gap: 20px;
 }
 details[open] summary::after {
-  content: '➖';
+  content: '-';
 }
 
 summary {
