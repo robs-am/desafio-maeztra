@@ -1,4 +1,3 @@
-import React from 'react';
 import Slider from "react-slick";
 
 import Button from '../Button/Button';
@@ -51,6 +50,11 @@ export default function SimpleSlider() {
 
   return (
     <div className="slider-container  my-0 mx-auto">
+      <div className="brands__title mb-6">
+        <h3 className="text-center font-bold text-2xl lg:text-3xl text-lighterBlack  leading-6">
+          As Mais Pedidas
+        </h3>
+      </div>
       <Slider {...settings}>
         {shelf.products.map((product) => (
           <div className="shelf__product px-4" key={product.id}>
