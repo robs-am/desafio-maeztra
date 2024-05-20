@@ -11,8 +11,6 @@ import B05 from '../../assets/brands/brand05.png';
 
 export function Brands() {
   var settings = {
-    className: 'center',
-    centerMode: true,
     dots: true,
     infinite: false,
     speed: 500,
@@ -35,6 +33,7 @@ export function Brands() {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
+          dots: true,
         },
       },
       {
@@ -42,12 +41,13 @@ export function Brands() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
         },
       },
     ],
   };
   return (
-    <section className="2xl:max-w-none 2xl?justify-center lg:max-w-[1366px] flex flex-col my-0 mx-auto">
+    <section className="">
       <div className="brands__title mb-6">
         <h3 className="text-center font-bold text-2xl lg:text-3xl text-lighterBlack  leading-6">
           Marcas Parceiras
@@ -55,19 +55,19 @@ export function Brands() {
       </div>
       <div className="slider-container">
         <Slider {...settings}>
-          <div>
+          <div className="flex justify-center">
             <img src={B03} />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img src={B04} />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img src={B05} />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img src={B01} />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img src={B02} />
           </div>
         </Slider>
