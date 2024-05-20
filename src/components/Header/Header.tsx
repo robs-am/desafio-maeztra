@@ -58,7 +58,7 @@ const Header = () => {
             </div>
           </div>
           <div className="header__main--col-right flex flex-row items-center gap-10">
-            <div className="favoritos">
+            <div className="minha-conta">
               <a className="flex flex-row gap-2" href="#">
                 <img src={User} />
                 <span className="text-sm">Minha Conta</span>
@@ -70,7 +70,7 @@ const Header = () => {
                 <span className="text-sm">Favoritos</span>
               </a>
             </div>
-            <div className="favoritos border-[1px] border-orange rounded-md p-3">
+            <div className="minicart border-[1px] border-orange rounded-md p-3">
               <a className="flex flex-row gap-2" href="#">
                 <img src={ShoppingBag} />
                 <span className="text-sm">Meu Carrinho</span>

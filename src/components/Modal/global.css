@@ -1,0 +1,9 @@
+.close::before {
+  content: 'FECHAR';
+  font-size: 1;
+  color: #fff;
+  position: absolute;
+  top: -25px;
+  right: 0;
+  cursor: pointer;
+}

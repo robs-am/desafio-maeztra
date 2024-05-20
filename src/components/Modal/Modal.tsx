@@ -5,19 +5,21 @@ import Button from '../Button/Button';
 import ModalImg from '../../assets/modal/modal.png';
 import Enviar from '../../assets/modal/enviar.svg';
 
+import './global.css';
+
 const Modal = ({ isOpen, closeModal }) => {
   return (
     <>
       {isOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-50">
-          <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
+          <div className="absolute inset-0 bg-black opacity-80"></div>
           <div className="relative bg-white-100 p-8 lg:p-0 h-[307px] lg:h-[530px]">
             <div className="modal-content flex items-center flex-col lg:flex-row">
               <div className="image-content hidden lg:block">
                 <img src={ModalImg} alt="Modal" />
               </div>
               <button
-                className="absolute top-0 right-0 p-2 text-gray-700 hover:text-gray-900"
+                className="close absolute top-0 right-0 p-2 text-gray-700 hover:text-gray-900"
                 onClick={closeModal}
               >
                 <span className="sr-only text-black z-10">FECHAR</span>
