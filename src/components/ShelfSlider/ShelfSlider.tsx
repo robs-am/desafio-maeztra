@@ -1,12 +1,9 @@
-import Slider from "react-slick";
+import Slider from 'react-slick';
 
 import Button from '../Button/Button';
-import "./global.css"
+import './global.css';
 
-import { shelf, Produto01, Produto02, Cor01, Cor02 } from "../../data";
-
-
-
+import { shelf, Produto01, Produto02, Cor01, Cor02 } from '../../data';
 
 export default function SimpleSlider() {
   var settings = {
@@ -27,25 +24,25 @@ export default function SimpleSlider() {
           slidesToScroll: 2,
           infinite: true,
           arrows: true,
-          dots: false
-        }
+          dots: false,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -58,16 +55,31 @@ export default function SimpleSlider() {
       <Slider {...settings}>
         {shelf.products.map((product) => (
           <div className="shelf__product px-4" key={product.id}>
-            <img src={product.id === 1 ? Produto01 : Produto02} alt={product.name} />
-            <img className="py-2" src={product.cor === './assets/shelf/cor01.png' ? Cor01 : Cor02} alt={product.name} />
-            <span className="shelf__product-price pb-2 font-bold text-xl text-lighterBlack">{product.price}</span>
-            <h3 className="shelf__product-title pb-2 text-base text-black">{product.name}</h3>
-            <p className="shelf__product-desc text-xs text-black max-w-[240px] pb-2">{product.desc}</p>
-            <Button text={"Adicionar"} className="w-[254px] py-2 text-base text-white-default rounded-md" />
-
+            <img
+              src={product.id === 1 ? Produto01 : Produto02}
+              alt={product.name}
+            />
+            <img
+              className="py-2"
+              src={product.cor === './assets/shelf/cor01.png' ? Cor01 : Cor02}
+              alt={product.name}
+            />
+            <span className="shelf__product-price pb-2 font-bold text-xl text-lighterBlack">
+              {product.price}
+            </span>
+            <h3 className="shelf__product-title pb-2 text-base text-black">
+              {product.name}
+            </h3>
+            <p className="shelf__product-desc text-xs text-black max-w-[240px] pb-2">
+              {product.desc}
+            </p>
+            <Button
+              text={'Adicionar'}
+              className="w-[254px] py-2 text-base text-white-default rounded-md"
+            />
           </div>
         ))}
       </Slider>
     </div>
   );
-};
+}
