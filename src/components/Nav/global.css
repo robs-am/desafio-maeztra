@@ -1,3 +1,12 @@
 .navli:nth-child(1) {
-  @apply text-orange font-bold;
+  @apply text-orange font-bold flex items-center;
+}
+
+.navli:nth-child(1)::before {
+  content: "url('/src/assets/header/vestido.svg')";
+  color: transparent;
+  background-image: url('/src/assets/header/vestido.svg');
+  display: block;
+  width: 20px;
+  background-repeat: no-repeat;
 }

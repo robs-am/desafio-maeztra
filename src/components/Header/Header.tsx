@@ -1,13 +1,18 @@
 import React from 'react';
 
-import { Logo, benefitsBar, colRight, Heart, User, ShoppingBag } from "../../data";
-import Nav from "../Nav/Nav";
-import Search from "../Search/Search";
+import {
+  Logo,
+  benefitsBar,
+  colRight,
+  Heart,
+  User,
+  ShoppingBag,
+} from '../../data';
+import Nav from '../Nav/Nav';
+import Search from '../Search/Search';
 import { BiMenu } from 'react-icons/bi';
-import { CiSearch } from "react-icons/ci";
-import { HiOutlineShoppingBag } from "react-icons/hi2";
-
-
+import { CiSearch } from 'react-icons/ci';
+import { HiOutlineShoppingBag } from 'react-icons/hi2';
 
 const Header = () => {
   return (
@@ -19,13 +24,21 @@ const Header = () => {
       {/* Header Mobile */}
       <header className="header__mobile h-28 flex items-center justify-center lg:hidden">
         <div className="header__mobile--container flex flex-row items-center gap-5 px-4">
-          <div className="hamburguer"><BiMenu size={36} /></div>
+          <div className="hamburguer">
+            <BiMenu size={36} />
+          </div>
           <div className="header__mobile-logo mr-16">
-            <a href="/"><img src={Logo} alt="Logo Maeztra" /></a>
+            <a href="/">
+              <img src={Logo} alt="Logo Maeztra" />
+            </a>
           </div>
           <div className="icons__mobile flex flex-row items-center gap-8">
-            <div className="search"><CiSearch size={32} /></div>
-            <div className="shoppingBag"><HiOutlineShoppingBag size={32} /></div>
+            <div className="search">
+              <CiSearch size={32} />
+            </div>
+            <div className="shoppingBag">
+              <HiOutlineShoppingBag size={32} />
+            </div>
           </div>
         </div>
       </header>
@@ -35,14 +48,16 @@ const Header = () => {
       <header className="header__desktop hidden lg:block">
         <div className="header__main flex flex-row items-center justify-around p-6 bg-white shadow-md">
           <div className="header__main--col-left">
-            <a href="/"><img src={Logo} alt="Logo Maeztra" /></a>
+            <a href="/">
+              <img src={Logo} alt="Logo Maeztra" />
+            </a>
           </div>
           <div className="header__main--col-center">
             <div className="rounded-s-xl">
               <Search className="rounded-lg" />
             </div>
           </div>
-          <div className="header__main--col-right flex flex-row gap-10">
+          <div className="header__main--col-right flex flex-row items-center gap-10">
             <div className="favoritos">
               <a className="flex flex-row gap-2" href="#">
                 <img src={User} />
@@ -55,7 +70,7 @@ const Header = () => {
                 <span className="text-sm">Favoritos</span>
               </a>
             </div>
-            <div className="favoritos">
+            <div className="favoritos border-[1px] border-orange rounded-md p-3">
               <a className="flex flex-row gap-2" href="#">
                 <img src={ShoppingBag} />
                 <span className="text-sm">Meu Carrinho</span>
