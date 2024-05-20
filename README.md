@@ -1,30 +1,66 @@
-# React + TypeScript + Vite
+  # Avaliação Maeztra
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
+Este é um desafio proposto como parte do Processo de Seleção da Maeztra. Ele consiste em replicar o design de um E-commerce fictício.
 
-Currently, two official plugins are available:
+## Tech Stack
+  - React
+ - JavaScript
+ - TypeScript
+ - TailwindCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+
+## Instalação
+
+
+```bash
+  npm install desafio-maeztra
+  cd desafio-maeztra
+```
+    
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/robs-am/desafio-maeztra/
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Entre no diretório do projeto
+
+```bash
+  cd desafio-maeztra
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+
+
+## Autor
+
+## Sobre 
+
+Sou desenvolvedora há 2 anos, trabalhando com as tecnologias React e VTEX IO. Tenho formação em Design e atualmente estou cursando pós graduação em Engenharia de Software para ter uma visão macro sobre desenvolvimento. Dentre as empresas que pude contribuir, destaco:
+
+
+- [Yeanzah](www.yeanzah.com.br )
+- [Digaspi](www.digaspi.com.br )
+- [Liritty](www.liritty.com.br )
+- [Creamy](https://www.creamy.com.br)
+- [Skelt](www.skelt.com.br )
+- [Candide](https://www.candide.com.br)
+
