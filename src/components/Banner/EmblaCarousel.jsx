@@ -1,12 +1,11 @@
-// @ts-nocheck
-import React from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
-import Banner from '../../assets/banner/banner.png';
-import BannerMobile from '../../assets/banner/banner-mobile.png';
-import Button from '../Button/Button';
-import { bannerText } from '../../data';
-import './embla.css';
+import React from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
+import Banner from "../../assets/banner/banner.png";
+import BannerMobile from "../../assets/banner/banner-mobile.png";
+import Button from "../Button/Button";
+import { bannerText } from "../../data";
+import "./embla.css";
 
 const BannerContent = () => (
   <div className="banner-container absolute z-10 left-[40%] lg:left-[30%] transform -translate-x-[40%] translate-y-[45%] lg:translate-y-[85%] lg:max-w-[471px]">
@@ -29,7 +28,7 @@ const BannerContent = () => (
 
 const EmblaSlide = ({ isMobile }) => (
   <>
-    <img className={`hidden lg:block`} src={Banner} alt="Banner" />
+    <img className={`hidden lg:block lg:w-full`} src={Banner} alt="Banner" />
     <img
       className={`block w-full lg:hidden`}
       src={BannerMobile}

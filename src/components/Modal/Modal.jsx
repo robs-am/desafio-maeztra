@@ -1,12 +1,11 @@
-// @ts-nocheck
-import React from 'react';
+import React from "react";
 
-import Carta from '../../assets/modal/carta.svg';
-import Button from '../Button/Button';
-import ModalImg from '../../assets/modal/modal.png';
-import Enviar from '../../assets/modal/enviar.svg';
+import Carta from "../../assets/modal/carta.svg";
+import Button from "../Button/Button";
+import ModalImg from "../../assets/modal/modal.png";
+import Enviar from "../../assets/modal/enviar.svg";
 
-import './global.css';
+import "./global.css";
 
 const Modal = ({ isOpen, closeModal }) => {
   return (
@@ -31,7 +30,7 @@ const Modal = ({ isOpen, closeModal }) => {
                   BEM VINDO À MAEZTRA
                 </h2>
                 <p className="text-xl text-center text-[#787D83] w-[258px] my- max-auto">
-                  Receba em Primeira mão{' '}
+                  Receba em Primeira mão{" "}
                   <strong>desconto e ofertas exlcuivas</strong>
                 </p>
                 <div className="newsletter w-full mt-6">
@@ -54,7 +53,7 @@ const Modal = ({ isOpen, closeModal }) => {
                         alt="Enviar"
                         className="w-6 absolute right-0 left-0 top-0 bottom-0 m-auto mr-20px mr-[70px] lg:mr-[140px]"
                       />
-                      <Button text={'Enviar'} className="py-3 w-full" />
+                      <Button text={"Enviar"} className="py-3 w-full" />
                     </div>
                   </form>
                 </div>

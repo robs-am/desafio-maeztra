@@ -1,13 +1,12 @@
-//@ts-nocheck
-import React from 'react';
+import React from "react";
 
-import { bannerWithText, BannerTextMob, BannerTextDesk } from '../../data';
+import { bannerWithText, BannerTextMob, BannerTextDesk } from "../../data";
 
 const BannerText = () => {
   return (
     <section>
       <div className="banner-with_text__content flex flex-col mb-10 gap-6 px-8 lg:flex lg:flex-row lg:justify-center lg:gap-16">
-        <div className="banner-with_text__info flex flex-col gap-4 max-w-[270px] lg:max-w-[420px] lg:justify-center">
+        <div className="banner-with_text__info flex flex-col gap-4  lg:max-w-[420px] lg:justify-center">
           <h1 className="text-black text-2xl font-bold">
             {bannerWithText.title}
           </h1>
@@ -15,7 +14,7 @@ const BannerText = () => {
         </div>
         <div className="banner-with_text__img">
           <a href="#">
-            {' '}
+            {" "}
             <img
               src={BannerTextMob}
               alt="Imagem Mobile"
@@ -24,7 +23,7 @@ const BannerText = () => {
           </a>
 
           <a href="#">
-            {' '}
+            {" "}
             <img
               src={BannerTextDesk}
               alt="Imagem Desktop"

@@ -1,5 +1,4 @@
-// @ts-nocheck
-import React from 'react';
+import React from "react";
 
 const Search = ({ text }) => {
   return (
