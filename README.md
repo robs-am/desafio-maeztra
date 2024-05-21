@@ -1,7 +1,7 @@
   # Avaliação Maeztra
 
 ## Visão Geral
-Este é um desafio proposto como parte do Processo de Seleção da Maeztra. Ele consiste em replicar o design de um E-commerce fictício.
+Este é um desafio proposto como parte do Processo de Seleção da Maeztra. Ele consiste em replicar o design de um E-commerce fictício. <br><br>
 Live: https://robs-am.github.io/desafio-maeztra/
 
 ## Tech Stack
