@@ -2,6 +2,7 @@
 
 ## Visão Geral
 Este é um desafio proposto como parte do Processo de Seleção da Maeztra. Ele consiste em replicar o design de um E-commerce fictício.
+Live: https://robs-am.github.io/desafio-maeztra/
 
 ## Tech Stack
   - React
@@ -9,10 +10,7 @@ Este é um desafio proposto como parte do Processo de Seleção da Maeztra. Ele 
  - TypeScript
  - TailwindCSS
 
-
-
 ## Instalação
-
 
 ```bash
   npm install desafio-maeztra
