@@ -3,3 +3,8 @@
   transition: all 0.3s ease 0s;
   cursor: pointer;
 }
+
+.shelf__product img:hover {
+  transform: scale(0.99);
+  transition: all 0.3s ease;
+}
