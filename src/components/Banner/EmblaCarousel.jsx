@@ -5,7 +5,7 @@ import Banner from '../../assets/banner/banner.png';
 import BannerMobile from '../../assets/banner/banner-mobile.png';
 import Button from '../Button/Button';
 import { bannerText } from '../../data';
-import './global.css';
+import './embla.css';
 
 const BannerContent = () => (
   <div className="banner-container absolute z-10 left-[40%] lg:left-[30%] transform -translate-x-[40%] translate-y-[45%] lg:translate-y-[85%] lg:max-w-[471px]">
