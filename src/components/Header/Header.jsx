@@ -1,4 +1,3 @@
-//@ts-nocheck
 import React from 'react';
 
 import { Logo, benefitsBar, Heart, User, ShoppingBag } from '../../data';

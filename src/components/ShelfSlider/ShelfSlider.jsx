@@ -1,4 +1,3 @@
-//@ts-nocheck
 import Slider from 'react-slick';
 import Button from '../Button/Button';
 import './global.css';
