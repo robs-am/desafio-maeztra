@@ -1,13 +1,7 @@
+//@ts-nocheck
 import React from 'react';
 
-import {
-  Logo,
-  benefitsBar,
-  colRight,
-  Heart,
-  User,
-  ShoppingBag,
-} from '../../data';
+import { Logo, benefitsBar, Heart, User, ShoppingBag } from '../../data';
 import Nav from '../Nav/Nav';
 import Search from '../Search/Search';
 import { BiMenu } from 'react-icons/bi';

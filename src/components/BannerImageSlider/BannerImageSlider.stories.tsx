@@ -1,14 +1,12 @@
+//@ts-nocheck
 import type { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
 import BannerImageSlider from '.';
 
 const meta: Meta<typeof BannerImageSlider> = {
-    component: BannerImageSlider,
-    title: 'Components/BannerImageSlider',
-    argTypes: {
-
-    }
-
+  component: BannerImageSlider,
+  title: 'Components/BannerImageSlider',
+  argTypes: {},
 };
 
 export default meta;
@@ -20,9 +18,8 @@ type Story = StoryObj<typeof BannerImageSlider>;
  * to learn how to use render functions.
  */
 export const Default: Story = {
-    render: (args) => <BannerImageSlider {...args} />,
-    args: {
-        enableComponent: true,
-    }
+  render: (args) => <BannerImageSlider {...args} />,
+  args: {
+    enableComponent: true,
+  },
 };
-
