@@ -1,12 +1,12 @@
 // @ts-nocheck
-import React from 'react';
+import React from "react";
 
-import { Logo, benefitsBar, Heart, User, ShoppingBag } from '../../data';
-import Nav from '../Nav/Nav';
-import Search from '../Search/Search';
-import { BiMenu } from 'react-icons/bi';
-import { CiSearch } from 'react-icons/ci';
-import { HiOutlineShoppingBag } from 'react-icons/hi2';
+import { Logo, benefitsBar, Heart, User, ShoppingBag } from "../../data";
+import Nav from "../Nav/Nav";
+import Search from "../Search/Search";
+import { BiMenu } from "react-icons/bi";
+import { CiSearch } from "react-icons/ci";
+import { HiOutlineShoppingBag } from "react-icons/hi2";
 
 const Header = () => {
   return (
@@ -47,7 +47,7 @@ const Header = () => {
             </a>
           </div>
           <div className="header__main--col-center">
-            <div className="rounded-s-xl">
+            <div className="rounded-s-xl w-[700px]">
               <Search className="rounded-lg" />
             </div>
           </div>
