@@ -39,31 +39,36 @@ export default function SimpleSlider() {
       </div>
       <Slider {...settings}>
         {shelf.products.map((product) => (
-          <div className="shelf__product px-4" key={product.id}>
+          <div className="shelf__product max-w-[300px] pb-3" key={product.id}>
             <a href="#">
               <img
+                className="shelf__product--img"
                 src={product.id === 1 ? Produto01 : Produto02}
                 alt={product.name}
               />
+
               <img
-                className="py-2"
+                className="py-2 pl-5"
                 src={product.cor === './assets/shelf/cor01.png' ? Cor01 : Cor02}
                 alt={product.name}
               />
             </a>
-            <span className="shelf__product-price pb-2 font-bold text-xl text-lighterBlack">
-              {product.price}
-            </span>
-            <h3 className="shelf__product-title pb-2 text-base text-black">
-              {product.name}
-            </h3>
-            <p className="shelf__product-desc text-xs text-[#0000007a] max-w-[240px] pb-2">
-              {product.desc}
-            </p>
-            <Button
-              text={'Adicionar'}
-              className="w-[254px] py-2 text-base text-white-default rounded-md"
-            />
+            <div className="shelf__product--details pl-5">
+              <span className="shelf__product-price pb-2 font-bold text-xl text-lighterBlack">
+                {product.price}
+              </span>
+              <h3 className="shelf__product-title pb-2 text-base text-black">
+                {product.name}
+              </h3>
+              <p className="shelf__product-desc text-xs text-[#0000007a] max-w-[240px] pb-2">
+                {product.desc}
+              </p>
+
+              <Button
+                text={'Adicionar'}
+                className="w-[254px] py-2 text-base text-white-default rounded-md"
+              />
+            </div>
           </div>
         ))}
       </Slider>
