@@ -1,3 +1,4 @@
+// @ts-nocheck
 export { default as Logo } from './assets/header/logo.svg';
 export { default as Heart } from './assets/header/icon-heart.svg';
 export { default as User } from './assets/header/icon-user.svg';

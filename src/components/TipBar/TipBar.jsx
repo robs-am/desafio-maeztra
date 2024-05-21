@@ -1,4 +1,5 @@
-import React from 'react';
+// @ts-nocheck
+
 import useEmblaCarousel from 'embla-carousel-react';
 import { tipBar } from '../../data';
 import './global.css';

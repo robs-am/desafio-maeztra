@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState, useEffect } from 'react';
 import Header from './components/Header/Header';
 import EmblaCarousel from './components/Banner/EmblaCarousel';

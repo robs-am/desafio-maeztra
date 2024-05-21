@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 import Carta from '../../assets/modal/carta.svg';

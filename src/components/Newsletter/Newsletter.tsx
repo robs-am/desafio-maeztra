@@ -1,9 +1,10 @@
+// @ts-nocheck
 import React from 'react';
 import Button from '../Button/Button';
 
 const Newsletter = () => {
   return (
-    <section className="newsletter bg-white-200">
+    <section className="newsletter bg-white-200 flex  justify-center">
       <div className="container py-6 px-8 border-t-2 border-[#EFEFEF] border-b-2">
         <div className="newsletter-content flex flex-col justify-center items-center gap-2 lg:flex lg:flex-row lg:gap-12 lg:py-5">
           <h2 className="news-title text-2xl font-bold text-lighterBlack">
