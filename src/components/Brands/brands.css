@@ -10,8 +10,4 @@
       max-width: 330px;
     }
   }
-
-  .slick-slide.slick-active {
-    max-width: 350px;
-  }
 }
