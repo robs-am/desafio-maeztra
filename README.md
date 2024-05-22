@@ -50,10 +50,10 @@ Inicie o servidor
 Sou desenvolvedora há 2 anos, trabalhando com as tecnologias React e VTEX IO. Tenho formação em Design e atualmente estou cursando pós graduação em Engenharia de Software para ter uma visão macro sobre desenvolvimento. Dentre as empresas que pude contribuir, destaco:
 
 
-- [Yeanzah](www.yeanzah.com.br )
-- [Digaspi](www.digaspi.com.br )
-- [Liritty](www.liritty.com.br )
+- [Yeanzah](https://www.yeanzah.com.br )
+- [Digaspi](https://www.digaspi.com.br )
+- [Liritty](https://www.liritty.com.br )
 - [Creamy](https://www.creamy.com.br)
-- [Skelt](www.skelt.com.br )
+- [Skelt](https://www.skelt.com.br )
 - [Candide](https://www.candide.com.br)
 
